@@ -8,6 +8,7 @@ button[type="button"]{
 
 .button {
     border: none;
+    color: #FFFFFF;
     text-align: center;
     padding: 7px 14px;
     font-size: 16px;
@@ -18,11 +19,51 @@ button[type="button"]{
 }
 
 .basic {
-    background: #7f7f7f;
+    background: #7F7F7F;
     border: 1px solid #a5a5a5;
 }
 
 .basic:hover {
     background: #727272;
     border: 1px solid #666666;
+}
+
+.green {
+    background: #43AC5A;
+    border: 1px solid #73c886;
+}
+
+.green:hover {
+    background: #3C9A50;
+    border: 1px solid #2e753d;
+}
+
+.blue {
+    background: #4BAAE4 ;
+    border: 1px solid #8EC9EE;
+}
+
+.blue:hover {
+    background: #2195db;
+    border: 1px solid #1a77af;
+}
+
+.orange {
+    background: #FEB63E;
+    border: 1px solid #FEC971;
+}
+
+.orange:hover {
+    background: #FEA30b;
+    border: 1px solid #D58601;
+}
+
+.red {
+    background: #FF484D;
+    border: 1px solid #FF7B7F;
+}
+
+.red:hover {
+    background: #FF151B;
+    border: 1px solid #E10006;
 }
